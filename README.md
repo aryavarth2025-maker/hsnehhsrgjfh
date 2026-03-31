@@ -37,11 +37,11 @@ pip install pandas scikit-learn
 
 ## Code Overview
 The main script performs the following sequential steps:
-- ** Data Initialization: ** Loading and splitting the dataset.
-- ** Feature Engineering: ** Extracting text features using TF-IDF.
-- ** Training: ** Fitting the Logistic Regression model.
-- ** Evaluation: ** Calculating metrics and displaying the results.
-- ** Inference: ** Predicting sentiments on new input texts.
+- **Data Initialization:** Loading and splitting the dataset.
+- **Feature Engineering:** Extracting text features using TF-IDF.
+- **Training:** Fitting the Logistic Regression model.
+- **Evaluation:** Calculating metrics and displaying the results.
+- **Inference:** Predicting sentiments on new input texts.
 
 ## Future Improvements
 - Use larger and more diverse datasets for better generalization.
