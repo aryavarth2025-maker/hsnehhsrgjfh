@@ -28,3 +28,27 @@ Install the required dependencies using `pip`:
 
 ```bash
 pip install pandas scikit-learn
+```
+## Usage
+- Load and preprocess the dataset.
+- Train the Logistic Regression model using the training data split.
+- Evaluate the model's performance on the test set.
+- Pass new text samples through the classifier to predict their sentiment.
+
+##Code Overview
+The main script performs the following sequential steps:
+- * Data Initialization: * Loading and splitting the dataset.
+- * Feature Engineering: * Extracting text features using TF-IDF.
+- * Training: * Fitting the Logistic Regression model.
+- * Evaluation: * Calculating metrics and displaying the results.
+- * Inference: * Predicting sentiments on new input texts.
+
+## Future Improvements
+- Use larger and more diverse datasets for better generalization.
+- Experiment with more advanced algorithms and models (e.g., SVM, LSTM, BERT).
+- Integrate advanced text preprocessing pipelines like stemming, lemmatization, and stopword removal.
+- Incorporate model interpretability tools.
+- Deploy as a simple web app or API for real-time usage.
+
+Name: Deepak Kumar
+Reg no.- 25BAI11461
